@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  transition: all 0.4s ease;
+}
+
+/* Counter */
+
+#counter {
+  text-align: center;
+  font-size: 5em;
+  color: orangered;
+  transition: all 0.5s ease;
+}
+
+/* Container */
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.mode-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn-inc {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  border: #000 solid;
+  background-color: greenyellow;
+  transition: all 0.2s ease;
+  font-size: 20px;
+}
+
+#btn-inc:hover {
+  transform: scale(1.1);
+}
+
+#btn-inc:active {
+  background-color: lawngreen;
+}
+
+#btn-dcr {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  border: #000 solid;
+  background-color: red;
+  font-size: 20px;
+}
+
+#btn-dcr:hover {
+  transform: scale(1.1);
+}
+
+#btn-dcr:active {
+  background-color: orangered;
+}
+
+
+#btn-reset {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  border: #000 solid;
+  background-color: yellow;
+  font-size: 20px;
+}
+
+#btn-reset:hover {
+  transform: scale(1.1);
+}
+
+#btn-reset:active {
+  background-color: rgb(209, 209, 37);
+}
+
+
+#btn-mode {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  border: #000 solid;
+  background-color: #666;
+  color: white;
+  margin-top: 30px;
+}
+
+#btn-mode:hover {
+  transform: scale(1.1);
+}
+
+/* Dark Mode */
+
+.dark {
+  background-color: #000;
+}
+
+.white-border {
+  border: white solid;
+}

@@ -2,6 +2,8 @@
 
 A simple, modern, and responsive **Counter App** built with a clean user interface. Increase or decrease the counter with the `+` and `−` buttons, reset it whenever you want, and switch between light and dark modes.
 
+---
+
 ## Features
 
 * ➕ **Increment** — Increase the counter by 1

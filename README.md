@@ -13,9 +13,22 @@ A simple, modern, and responsive **Counter App** built with a clean user interfa
 * 📱 **Responsive Design** — Works on desktop, tablet, and mobile devices
 * 🎨 **Clean UI** — Simple and user-friendly interface
 
+---
+
 ## Preview
 
 The application provides a minimal interface focused on the counter and its controls.
+
+MAIN MENU
+<img width="1487" height="731" alt="image" src="https://github.com/user-attachments/assets/df5eeb90-e022-4cfa-8b91-22cd3fbb3459" />
+
+INCREASING COUNTER
+<img width="1287" height="645" alt="image" src="https://github.com/user-attachments/assets/f7dbdcae-0a60-41eb-90e8-450c64bb3cfd" />
+
+TOGGLE DARK MODE
+<img width="1465" height="723" alt="image" src="https://github.com/user-attachments/assets/3489b141-1011-4375-a2af-0a72814ede89" />
+
+---
 
 ## Technologies
 
@@ -23,12 +36,14 @@ The application provides a minimal interface focused on the counter and its cont
 * CSS3
 * JavaScript
 
+---
+
 ## How to Run
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/counter-app.git
+git clone https://github.com/ShadowChaserSama/simple-counter
 ```
 
 2. Open the project folder:
@@ -48,6 +63,8 @@ No additional dependencies or installation are required.
 * Click **Reset** to set the counter back to `0`.
 * Use the **Dark Mode** button to change the theme.
 
+---
+
 ## Project Structure
 
 ```text
@@ -58,6 +75,8 @@ counter-app/
 ├── script.js
 └── README.md
 ```
+
+---
 
 ## Future Improvements
 
@@ -72,3 +91,5 @@ Possible future features include:
 ## License
 
 This project is open-source and available under the MIT License.
+
+**By ALI**
